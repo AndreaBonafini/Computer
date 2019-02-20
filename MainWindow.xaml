@@ -10,12 +10,18 @@
         <Label x:Name="message" Content="New Computer" RenderTransformOrigin="0.482,0.244"/>
         <TextBox x:Name="txtName" Text="Andrea Bonafini"/>
         <Button x:Name="btnCPU" Content="Click for CPU" Click="btnCPU_Click"/>
-
+        <Textbox x:Name="txtCPU" Text="description"/>
         <Button x:Name="btnMotherboard" Content="Click for Motherboard" Click="btnMotherboard_Click"/>
+            <Textbox x:Name="txtMotherboard" Text="description"/>
         <Button x:Name="btnMemory" Content="Click for Memory" Click="btnMemory_Click"/>
+            <Textbox x:Name="txtMemory" Text="description"/>
         <Button x:Name="btnStorage" Content="Click for Storage" Click="btnStorage_Click"/>
+            <Textbox x:Name="txtStorage" Text="description"/>
         <Button x:Name="btnCase" Content="Click for Case" Click="btnCase_Click"/>
+            <Textbox x:Name="txtCase" Text="description"/>
         <Button x:Name="btnGraphicCard" Content="Click for GraphicCard" Click="btnGraphicCard_Click"/>
+            <Textbox x:Name="txtGraphicCard" Text="description"/>
         <Button x:Name="btnOpticalDrive" Content="Click for OpticalDrive" Click="btnOpticalDrive_Click"/>
+            <Textbox x:Name="txtOpticalDrive" Text="description"/>
     </StackPanel>
 </Window>
