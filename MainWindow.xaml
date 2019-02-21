@@ -1,4 +1,4 @@
-﻿<Window x:Class="New_Computer_Project.MainWindow"
+<Window x:Class="New_Computer_Project.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <StackPanel Margin="10,46,2,-1" RenderTransformOrigin="0.501,0.622">
-        <Label x:Name="message" Content="New Computer" RenderTransformOrigin="0.482,0.244"/>
-        <TextBox x:Name="txtName" Text="Andrea Bonafini"/>
-        <Button x:Name="btnCPU" Content="Click for CPU" Click="btnCPU_Click"/>
-        <Textbox x:Name="txtCPU" Text="description"/>
-        <Button x:Name="btnMotherboard" Content="Click for Motherboard" Click="btnMotherboard_Click"/>
-            <Textbox x:Name="txtMotherboard" Text="description"/>
-        <Button x:Name="btnMemory" Content="Click for Memory" Click="btnMemory_Click"/>
-            <Textbox x:Name="txtMemory" Text="description"/>
-        <Button x:Name="btnStorage" Content="Click for Storage" Click="btnStorage_Click"/>
-            <Textbox x:Name="txtStorage" Text="description"/>
-        <Button x:Name="btnCase" Content="Click for Case" Click="btnCase_Click"/>
-            <Textbox x:Name="txtCase" Text="description"/>
-        <Button x:Name="btnGraphicCard" Content="Click for GraphicCard" Click="btnGraphicCard_Click"/>
-            <Textbox x:Name="txtGraphicCard" Text="description"/>
-        <Button x:Name="btnOpticalDrive" Content="Click for OpticalDrive" Click="btnOpticalDrive_Click"/>
-            <Textbox x:Name="txtOpticalDrive" Text="description"/>
+        <Label x:Name="message" Content="New Computer" FontSize="16" RenderTransformOrigin="0.482,0.244"/>
+        <TextBox x:Name="txtName" Text="Andrea Bonafini" FontSize="16"/>
+        <Button x:Name="btnCPU" Content="Click for CPU" Click="btnCPU_Click" FontSize="16" Background="WhiteSmoke"/>
+        <Label x:Name="lblCPU" Visibility="Collapsed">My memory information</Label>
+        <Button x:Name="btnMemory" Content="Click for Memory" Click="btnMemory_Click" FontSize="16" Background="LightBlue"/>
+        <Label x:Name="lblMem" Visibility="Collapsed">My memory information</Label>
+        <Button x:Name="btnMotherboard" Content="Click for Motherboard" Click="btnMotherboard_Click" FontSize="16" Background="LightGreen"/>
+        <Label x:Name="lblMtb" Visibility="Collapsed">Ciao</Label>
+        <Button x:Name="btnCase" Content="Click for Case" Click="btnCase_Click" FontSize="16" Background="Yellow"/>
+        <Label x:Name="lblCase" Visibility="Collapsed">My memory information</Label>
+        <Button x:Name="btnStorage" Content="Click for Storage" Click="btnStorage_Click" FontSize="16" Background="Orange"/>
+        <Label x:Name="lblStg" Visibility="Collapsed">My memory information</Label>
+        <Button x:Name="btnOpticalDrive" Content="Click for OpticalDrive" Click="btnOpticalDrive_Click" FontSize="16" Background="Chocolate"/>
+        <Label x:Name="lblOpd" Visibility="Collapsed">My memory information</Label>
+        <Button x:Name="btnGraphicCard" Content="Click for GraphicCard" Click="btnGraphicCard_Click" FontSize="16" Background="Firebrick"/>
+        <Label x:Name="lblGrC" Visibility="Collapsed">My memory information</Label>
     </StackPanel>
 </Window>
