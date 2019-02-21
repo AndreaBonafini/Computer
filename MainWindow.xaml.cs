@@ -1,4 +1,4 @@
-﻿/*Andrea Bonafini
+/*Andrea Bonafini
  *Feb 15,2019
  *New computer projet for McT
 */
@@ -30,41 +30,93 @@ namespace New_Computer_Project
             MessageBox.Show("welcome  to my list of component for the new computer","hello");
             Console.WriteLine("The main window is Initialized");
         }
-
+        
         private void btnCPU_Click(object sender, RoutedEventArgs e)
         {
-            string name = txtName.Text;
-            message.Content = "this cpu";
+            
+            lblCPU.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
+
         }
 
         private void btnMotherboard_Click(object sender, RoutedEventArgs e)
         {
-
+           
+            lblMtb.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
         }
 
         private void btnStorage_Click(object sender, RoutedEventArgs e)
         {
-
+      
+            lblStg.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
         }
 
         private void btnCase_Click(object sender, RoutedEventArgs e)
         {
-
+            lblCase.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
         }
 
         private void btnGraphicCard_Click(object sender, RoutedEventArgs e)
         {
-
+            
+            lblGrC.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
         }
 
         private void btnOpticalDrive_Click(object sender, RoutedEventArgs e)
         {
-
+            lblOpd.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;
         }
 
         private void btnMemory_Click(object sender, RoutedEventArgs e)
         {
-
+            lblMem.Visibility = Visibility.Visible;
+            lblCase.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Collapsed;
+            lblCPU.Visibility = Visibility.Collapsed;
         }
     }
 }
