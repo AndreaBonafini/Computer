@@ -33,90 +33,45 @@ namespace New_Computer_Project
         
         private void btnCPU_Click(object sender, RoutedEventArgs e)
         {
-            
-            lblCPU.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
-
+            lblCPU.Visibility = Visibility.Visible; lblMem.Visibility = Visibility.Collapsed; lblCase.Visibility = Visibility.Collapsed;lblMem.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Collapsed; lblGrC.Visibility = Visibility.Collapsed; lblOpd.Visibility = Visibility.Collapsed; lblStg.Visibility = Visibility.Collapsed;
         }
 
         private void btnMotherboard_Click(object sender, RoutedEventArgs e)
         {
-           
-            lblMtb.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
+            lblMtb.Visibility = Visibility.Visible;lblGrC.Visibility = Visibility.Collapsed;lblOpd.Visibility = Visibility.Collapsed;lblStg.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed; lblCPU.Visibility = Visibility.Collapsed;   lblMem.Visibility = Visibility.Collapsed;lblCase.Visibility = Visibility.Collapsed;
         }
-
+           
         private void btnStorage_Click(object sender, RoutedEventArgs e)
         {
-      
-            lblStg.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
+            lblStg.Visibility = Visibility.Visible;  lblCPU.Visibility = Visibility.Collapsed;lblMem.Visibility = Visibility.Collapsed; lblCase.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;lblGrC.Visibility = Visibility.Collapsed; lblOpd.Visibility = Visibility.Collapsed;lblMtb.Visibility = Visibility.Collapsed;
         }
 
         private void btnCase_Click(object sender, RoutedEventArgs e)
         {
-            lblCase.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Visible; lblStg.Visibility = Visibility.Collapsed;lblCPU.Visibility = Visibility.Collapsed;lblMem.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;lblMtb.Visibility = Visibility.Collapsed;lblGrC.Visibility = Visibility.Collapsed;lblOpd.Visibility = Visibility.Collapsed;
         }
 
         private void btnGraphicCard_Click(object sender, RoutedEventArgs e)
         {
             
-            lblGrC.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
+            lblGrC.Visibility = Visibility.Visible; lblMem.Visibility = Visibility.Collapsed;lblOpd.Visibility = Visibility.Collapsed; lblMtb.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed; lblCPU.Visibility = Visibility.Collapsed; lblStg.Visibility = Visibility.Collapsed; lblCase.Visibility = Visibility.Collapsed;           
         }
 
         private void btnOpticalDrive_Click(object sender, RoutedEventArgs e)
         {
-            lblOpd.Visibility = Visibility.Visible;
-            lblMem.Visibility = Visibility.Collapsed;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
-            lblMem.Visibility = Visibility.Collapsed;
+            lblOpd.Visibility = Visibility.Visible; lblMem.Visibility = Visibility.Collapsed; lblCPU.Visibility = Visibility.Collapsed; lblMtb.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Collapsed;lblGrC.Visibility = Visibility.Collapsed;lblStg.Visibility = Visibility.Collapsed;lblCase.Visibility = Visibility.Collapsed;                                                                   
         }
 
         private void btnMemory_Click(object sender, RoutedEventArgs e)
         {
-            lblMem.Visibility = Visibility.Visible;
-            lblCase.Visibility = Visibility.Collapsed;
-            lblMtb.Visibility = Visibility.Collapsed;
-            lblGrC.Visibility = Visibility.Collapsed;
-            lblOpd.Visibility = Visibility.Collapsed;
-            lblStg.Visibility = Visibility.Collapsed;
-            lblCPU.Visibility = Visibility.Collapsed;
+            lblMem.Visibility = Visibility.Visible;lblCPU.Visibility = Visibility.Collapsed;lblStg.Visibility = Visibility.Collapsed;lblOpd.Visibility = Visibility.Collapsed;
+            lblCase.Visibility = Visibility.Collapsed;lblMtb.Visibility = Visibility.Collapsed; lblGrC.Visibility = Visibility.Collapsed;                                           
         }
     }
 }
